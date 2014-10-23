@@ -2,6 +2,8 @@ The problem: Microsoft Outlook Web Access sniffs the User Agent HTTP header to s
 
 The solution: OWA-User-Agent is a simple plugin for Chrome that replaces the Linux UA string with one that is marked Windows so that full OWA can be used from within Linux and possibly OSX.
 
+Install it through the [Chrome Web Store](https://chrome.google.com/webstore/detail/owa-user-agent/bbcokcplpnehgcfgjbpaecnmaedpjifo)
+
 
 Caveats/bugs:
 
