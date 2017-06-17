@@ -1,5 +1,5 @@
 var requestFilter = {
-	urls: ["*://*/owa/*"]
+	urls: ["*://*/owa/*", "*://*/OWA/*"]
 };
 
 chrome.webRequest.onBeforeSendHeaders.addListener(function(details) {
