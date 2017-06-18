@@ -16,7 +16,7 @@
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
-   ["*://*/owa/*", "*://*/OWA/*"],
+   "*://*/owa/*,*://*/OWA/*",
 		"tabs"
 	]
 }
