@@ -1,6 +1,6 @@
 {
 	"name": "OWA User-Agent",
-	"version": "0.1.0",
+	"version": "0.1.1",
     "manifest_version": 2,
 	"description": "Allow the full version of Outlook Web Access (OWA) to be used in Chrome/Chromium in Linux, FreeBSD, and OSX.",
 	"homepage_url": "https://github.com/jamiesonbecker/owa-user-agent/",
@@ -16,7 +16,7 @@
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
-        "*://*/owa/*",
+   ["*://*/owa/*", "*://*/OWA/*"],
 		"tabs"
 	]
 }
